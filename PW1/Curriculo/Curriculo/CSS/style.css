@@ -102,7 +102,7 @@ h2{
     line-height: 40px;
 }
 
-p, blockquote{
+p, blockquote, figcaption{
     text-align: center;
     line-height: 26px;
 }
@@ -112,10 +112,10 @@ hr{
 }
 
 img{
-    width: 85px;
+    width: 60px;
     position: relative;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 18px;
+    margin-top: 20px;
 }
 
 figure{

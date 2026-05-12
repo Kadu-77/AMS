@@ -73,11 +73,11 @@ header{
     border: none;
     border-radius: 5px;
    cursor: pointer;  /* muda o cursor ao passar por cima */
-   background: var(--cor-footer);
-   color: var(--cor-branco);
-   font-size: 14px;
+    background: var(--cor-footer);
+    color: var(--cor-branco);
+    font-size: 14px;
    background: none; /* remove o fundo */
-   font-size: 20px;
-   border: none;
-   cursor: pointer;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
 }
