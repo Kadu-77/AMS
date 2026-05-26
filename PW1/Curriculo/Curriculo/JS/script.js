@@ -16,31 +16,32 @@
 //             }
 //         })
 
-const botao = document.getElementById ("tema");
-
+const botao = document.getElementById("Tema");
 const updateButtonIcon = () => {
     if (!botao) return;
     const darkMode = document.body.classList.contains("dark");
     botao.textContent = darkMode ? "🌞" : "🌙";
-    botao.title = darkMode ? "Mudar para modo claro" : "Mudar para modo escuro";
+    botao.title = darkMode
+        ? "Mudar para modo claro"
+        : "Mudar para modo escuro";
 };
 
-const temaAtual = localStorage.getItem ("tema") === "dark" ? "dark" : "light"; if(temaAtual === "dark") {
-    document.body.classList.add("dark")
+const temaAtual =
+    localStorage.getItem("Tema") === "dark" ? "dark" : "light";
+if (temaAtual === "dark") {
+    document.body.classList.add("dark");
 }
 
 updateButtonIcon();
 
-if(botao) {
+if (botao) {
     botao.addEventListener("click", () => {
-        document.body.classList.toggle ("dark");
-
+        document.body.classList.toggle("dark");
         if (document.body.classList.contains("dark")) {
-            localStorage.setItem ("tema", "dark");
+            localStorage.setItem("Tema", "dark");
         } else {
-            localStorage.setItem ("tema", "light");
+            localStorage.setItem("Tema", "light");
         }
-
         updateButtonIcon();
     });
 }

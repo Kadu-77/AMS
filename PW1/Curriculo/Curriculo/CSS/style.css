@@ -9,7 +9,7 @@
     --cor-borda: #cecece;
     --cor-sombra: #ccc;
     --cor-branca: #fff;
-    --bg-image: url('../Imagens/pcs.png');
+    --bg-image: url('../Imagens/fundo.jpeg');
     --overlay-opacity: 0.7;
 
     /*Fonte*/
@@ -35,7 +35,7 @@
 html, body{
     height: 100%;
     /* background: var(--cor-fundo); */
-    background: 
+    background:
     linear-gradient(
             rgba(255, 255, 255, var(--overlay-opacity)),
             rgba(255, 255, 255, var(--overlay-opacity))
@@ -135,4 +135,21 @@ figure{
     margin: var(--espaco-padrao) auto;
     border: 1px solid var(--cor-borda);
     box-shadow: 0px 1px 2px var(--cor-sombra);
+}
+
+.voltar {
+position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    z-index: 1000;
+    position: absolute;
+    top: 0px;
+    left: 22px;
 }

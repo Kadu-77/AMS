@@ -9,7 +9,7 @@
     --cor-sombra: #ccc;
 }
 
-/* MODO ECURO */
+/* MODO ESCURO */
 .dark {
     --cor-fundo: #121212;
     --cor-header: #1f1f1f;
@@ -18,15 +18,27 @@
     --cor-branco: #1e1e1e;
     --cor-borda: #444;
     --cor-sombra: #000;
+    --bg-image: url('../Imagens/fundo1.jpg');
+    --overlay-opacity: 0.2;
 }
 
 * {
     transition: all 0.5s ease;
 }
 
-body {
+/* body {
     background: var(--cor-fundo);
     color: var(--cor-texto);
+} */
+body.dark,
+body.dark html {
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, var(--overlay-opacity)),
+            rgba(0, 0, 0, var(--overlay-opacity))
+        ),
+        var(--bg-image) no-repeat center center fixed;
+    background-size: cover;
 }
 
 header {
@@ -72,7 +84,7 @@ header{
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
-   cursor: pointer;  /* muda o cursor ao passar por cima */
+    cursor: pointer;  /* muda o cursor ao passar por cima */
     background: var(--cor-footer);
     color: var(--cor-branco);
     font-size: 14px;
