@@ -1,0 +1,55 @@
+1. Python
+Quem criou a linguagem Python?
+Em que ano Python foi lançada?
+Python é compilada ou interpretada?
+Quais são as principais características de Python?
+Em quais áreas Python é mais utilizada?
+
+2. Java
+Quem desenvolveu Java?
+O que significa o lema "Write Once, Run Anywhere"?
+Qual é o papel da JVM?
+Java é uma linguagem orientada a objetos?
+Quais são as principais aplicações de Java?
+
+3. JavaScript
+Quem criou JavaScript?
+Em qual linguagem JavaScript foi inspirado?
+Qual é a principal função do JavaScript em páginas web?
+JavaScript pode ser executado fora do navegador?
+O que torna JavaScript uma linguagem dinâmica?
+
+4. C
+Quem criou a linguagem C?
+Em qual década a linguagem C foi desenvolvida?
+Por que C é considerada uma linguagem de baixo nível relativo?
+Quais sistemas operacionais foram fortemente influenciados por C?
+Qual a importância de C para outras linguagens modernas?
+
+5. C++
+Quem criou C++?
+Qual é a principal diferença entre C e C++?
+C++ suporta programação orientada a objetos?
+Em quais áreas C++ é amplamente utilizada?
+O que significa o nome "C++"?
+
+6. C#
+Quem desenvolveu C#?
+Qual a relação entre C# e a plataforma .NET?
+C# é uma linguagem orientada a objetos?
+Em quais tipos de aplicações C# é mais usada?
+Qual empresa mantém o desenvolvimento de C#?
+
+7. PHP
+Quem criou PHP?
+O que significa a sigla PHP?
+Qual é o principal uso do PHP?
+PHP pode ser utilizado para desenvolvimento web dinâmico?
+Quais sistemas famosos utilizam PHP?
+
+8. Ruby
+Quem criou Ruby?
+Em qual país Ruby foi desenvolvida?
+Qual é a filosofia principal da linguagem Ruby?
+O que é o framework Rails?
+Por que Ruby é considerada uma linguagem produtiva para desenvolvedores?
