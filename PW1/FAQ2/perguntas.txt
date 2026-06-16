@@ -1,55 +1,162 @@
 1. Python
+
 Quem criou a linguagem Python?
+Foi criada por Guido van Rossum.
+
 Em que ano Python foi lançada?
+A primeira versão pública foi lançada em 1991.
+
 Python é compilada ou interpretada?
+Python é geralmente considerada uma linguagem interpretada, embora o código seja primeiro convertido em bytecode antes da execução.
+
 Quais são as principais características de Python?
+
+Sintaxe simples e legível.
+Fácil aprendizado.
+Multiplataforma.
+Grande quantidade de bibliotecas.
+Suporte a múltiplos paradigmas (orientação a objetos, programação funcional e procedural).
+
 Em quais áreas Python é mais utilizada?
 
+Ciência de dados.
+Inteligência artificial e aprendizado de máquina.
+Desenvolvimento web.
+Automação de tarefas.
+Computação científica.
+Segurança da informação.
 2. Java
+
 Quem desenvolveu Java?
+Java foi desenvolvida por James Gosling e sua equipe na Oracle Corporation (originalmente na Sun Microsystems).
+
 O que significa o lema "Write Once, Run Anywhere"?
+Significa que um programa Java pode ser escrito uma vez e executado em diferentes sistemas operacionais sem alterações.
+
 Qual é o papel da JVM?
+A Java Virtual Machine executa o bytecode Java e permite a portabilidade entre plataformas.
+
 Java é uma linguagem orientada a objetos?
+Sim, Java foi projetada principalmente como uma linguagem orientada a objetos.
+
 Quais são as principais aplicações de Java?
 
+Sistemas corporativos.
+Aplicações web.
+Aplicações Android.
+Sistemas bancários.
+Aplicações distribuídas.
 3. JavaScript
+
 Quem criou JavaScript?
+Foi criada por Brendan Eich em 1995.
+
 Em qual linguagem JavaScript foi inspirado?
+Recebeu influência de linguagens como Java, Scheme e Self.
+
 Qual é a principal função do JavaScript em páginas web?
+Adicionar interatividade e dinamismo às páginas web.
+
 JavaScript pode ser executado fora do navegador?
+Sim. Ambientes como Node.js permitem executar JavaScript fora do navegador.
+
 O que torna JavaScript uma linguagem dinâmica?
+Ela permite tipagem dinâmica, alteração de objetos em tempo de execução e flexibilidade na manipulação de dados.
 
 4. C
+
 Quem criou a linguagem C?
+Foi criada por Dennis Ritchie.
+
 Em qual década a linguagem C foi desenvolvida?
+Na década de 1970, nos laboratórios Bell.
+
 Por que C é considerada uma linguagem de baixo nível relativo?
+Porque oferece acesso direto à memória e aos recursos do hardware, ficando mais próxima da máquina do que linguagens de alto nível.
+
 Quais sistemas operacionais foram fortemente influenciados por C?
+O sistema operacional Unix foi desenvolvido em C, e diversos sistemas modernos, incluindo Linux, foram fortemente influenciados por ela.
+
 Qual a importância de C para outras linguagens modernas?
+Muitas linguagens derivam ou foram inspiradas por C, como C++, C#, Java, JavaScript e Python.
 
 5. C++
+
 Quem criou C++?
+Foi criada por Bjarne Stroustrup.
+
 Qual é a principal diferença entre C e C++?
+C++ adiciona recursos como orientação a objetos, classes, herança e polimorfismo à linguagem C.
+
 C++ suporta programação orientada a objetos?
+Sim, é uma das principais linguagens orientadas a objetos.
+
 Em quais áreas C++ é amplamente utilizada?
+
+Desenvolvimento de jogos.
+Sistemas operacionais.
+Software embarcado.
+Aplicações de alto desempenho.
+Motores gráficos.
+
 O que significa o nome "C++"?
+O operador "++" em C significa incremento. O nome sugere uma evolução da linguagem C.
 
 6. C#
+
 Quem desenvolveu C#?
+Foi desenvolvida pela Microsoft, liderada por Anders Hejlsberg.
+
 Qual a relação entre C# e a plataforma .NET?
+C# é a principal linguagem da plataforma .NET.
+
 C# é uma linguagem orientada a objetos?
+Sim, C# é fortemente orientada a objetos.
+
 Em quais tipos de aplicações C# é mais usada?
+
+Aplicações desktop.
+Desenvolvimento web.
+Serviços em nuvem.
+Jogos com Unity.
+Aplicativos móveis.
+
 Qual empresa mantém o desenvolvimento de C#?
+A Microsoft.
 
 7. PHP
+
 Quem criou PHP?
+Foi criada por Rasmus Lerdorf.
+
 O que significa a sigla PHP?
+PHP significa PHP: Hypertext Preprocessor.
+
 Qual é o principal uso do PHP?
+Desenvolvimento de aplicações web do lado do servidor.
+
 PHP pode ser utilizado para desenvolvimento web dinâmico?
+Sim. Essa é justamente uma de suas principais finalidades.
+
 Quais sistemas famosos utilizam PHP?
 
+WordPress
+Drupal
+MediaWiki
+Magento
 8. Ruby
+
 Quem criou Ruby?
+Foi criada por Yukihiro Matsumoto, conhecido como "Matz".
+
 Em qual país Ruby foi desenvolvida?
+No Japão.
+
 Qual é a filosofia principal da linguagem Ruby?
+Priorizar a felicidade e a produtividade do desenvolvedor, com código simples e elegante.
+
 O que é o framework Rails?
+Ruby on Rails é um framework para desenvolvimento rápido de aplicações web usando Ruby.
+
 Por que Ruby é considerada uma linguagem produtiva para desenvolvedores?
+Porque possui sintaxe intuitiva, alta legibilidade, muitas convenções prontas e recursos que reduzem a quantidade de código necessária para criar aplicações.
