@@ -1,0 +1,204 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #111827;
+    color: #fff;
+    padding: 30px;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: 0 auto;
+    min-width: 1200px;
+}
+td {
+    width: 70px;
+    height: 90px;
+    min-width: 70px;
+    padding: 6px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.2s ease;
+}
+
+td[colspan] {
+    background: transparent;
+    border: none;
+    cursor: default;
+}
+
+.numero {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.simbolo {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin: 5px 0;
+}
+
+.nome {
+    font-size: 10px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+td:not([colspan]):hover {
+    transform: scale(1.12);
+    z-index: 10;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    border-color: #fff;
+}
+
+.metal {
+    background: linear-gradient(
+        145deg,
+        #374151,
+        #1f2937
+    );
+
+    color: #f9fafb;
+}
+
+.metal-alcalino {
+    background: linear-gradient(
+        145deg,
+        #ef4444,
+        #991b1b
+    );
+}
+
+.metal-alcalino-terroso {
+    background: linear-gradient(
+        145deg,
+        #f97316,
+        #c2410c
+    );
+}
+
+.metaloide {
+    background: linear-gradient(
+        145deg,
+        #eab308,
+        #a16207
+    );
+
+    color: #fff;
+}
+
+.nao-metal {
+    background: linear-gradient(
+        145deg,
+        #22c55e,
+        #15803d
+    );
+}
+
+.halogenios {
+    background: linear-gradient(
+        145deg,
+        #06b6d4,
+        #0e7490
+    );
+}
+
+.gas {
+    background: linear-gradient(
+        145deg,
+        #8b5cf6,
+        #6d28d9
+    );
+}
+
+.lantanideos {
+    background: linear-gradient(
+        145deg,
+        #ec4899,
+        #be185d
+    );
+}
+
+.actinideos {
+    background: linear-gradient(
+        145deg,
+        #f43f5e,
+        #9f1239
+    );
+}
+
+td .simbolo {
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.35);
+}
+
+tr:nth-last-child(2) td,
+tr:last-child td {
+    height: 85px;
+}
+
+.legenda {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 30px auto 0;
+    max-width: 1000px;
+}
+
+.legenda-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+}
+
+.legenda-cor {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    table {
+        border-spacing: 3px;
+        min-width: 1100px;
+    }
+
+    td {
+        width: 62px;
+        min-width: 62px;
+        height: 78px;
+        padding: 4px;
+    }
+
+    .simbolo {
+        font-size: 23px;
+    }
+
+    .numero {
+        font-size: 9px;
+    }
+
+    .nome {
+        font-size: 8px;
+    }
+}
