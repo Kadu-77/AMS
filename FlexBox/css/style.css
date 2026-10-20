@@ -41,11 +41,7 @@ body {
 }
 .banner {
     min-height: 350px;
-    background: linear-gradient(
-        135deg
-        #111827,
-        #374151
-    );
+    background: linear-gradient( 135deg,#111827,#374151);
     color: white;
     display: flex;
     justify-content: center;
@@ -140,4 +136,72 @@ main h2 {
     padding: 60px 8%;
     display: flex;
     align-items: center;
+}
+.sobre-texto h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.sobre-texto p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.beneficios {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.beneficios div{
+    flex: 1 1 150px;
+    padding: 20px;
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    text-align: center;
+}
+.beneficios span {
+    font-size: 35px;
+}
+.beneficios h3 {
+    margin: 10px 0;
+}
+.beneficios p {
+    color: #666;
+}
+
+.contato {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #e5e7eb;
+}
+.contato h2 {
+    margin-bottom: 15px;
+}
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+@media (max-width: 700px) {
+    .cabecalho {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+    }
+    .banner h1 {
+        font-size: 32px;
+    }
+    .sobre {
+        flex-direction: column;
+        text-align: center;
+    }
+    .beneficios {
+        width: 100%;
+    }
 }
